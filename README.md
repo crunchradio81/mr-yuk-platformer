@@ -2,15 +2,11 @@
 
 A playable retro poison-control platformer inspired by late-1980s/1990s public-service arcade aesthetics.
 
-## Play
+## Play in the browser
 
-The repository root contains a self-contained `index.html` browser build.
+https://crunchradio81.github.io/mr-yuk-platformer/
 
-After GitHub Pages is enabled with **GitHub Actions** as the source, the game is available at:
-
-`https://crunchradio81.github.io/mr-yuk-platformer/`
-
-## Controls
+Controls:
 
 - Arrow keys / WASD — move and climb
 - Z — jump
@@ -18,6 +14,16 @@ After GitHub Pages is enabled with **GitHub Actions** as the source, the game is
 - P / Escape — pause
 - M — toggle music
 - Enter — start / continue
+
+## Native macOS version
+
+The complete Swift / SpriteKit Xcode project is in:
+
+`macOS/MrYukPoisonPatrol.xcodeproj`
+
+Native source, asset catalogs, audio resources, and project documentation are all stored under the `macOS/` directory.
+
+Open the Xcode project on an Apple Silicon Mac, select **My Mac**, and run the `MrYukPoisonPatrol` scheme.
 
 ## Notes
 
