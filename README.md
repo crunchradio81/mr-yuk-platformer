@@ -15,6 +15,10 @@ Controls:
 - M — toggle music
 - Enter — start / continue
 
+On phones and tablets, an on-screen D-pad plus **JUMP**, **YUK!**, **START / NEXT**, and **PAUSE** buttons appear automatically. Hold the D-pad directions to move or climb.
+
+The GitHub Pages build uses the real PNG sprite artwork and game audio embedded losslessly in the page, so it matches the local web build rather than the earlier simplified procedural placeholder graphics.
+
 ## Native macOS version
 
 The complete Swift / SpriteKit Xcode project is in:
